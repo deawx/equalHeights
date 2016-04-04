@@ -41,8 +41,11 @@ $('.pods-container').equalHeights({
   });
 ```
 As you can see you can add your own options in order to use the plugin in your way.
+
 `container` defaults to `.pods-container`, is the container class of the pods.
+
 `equalElements` defaults to `.pod`, is the class added to the elements we want to have the same height.
+
 `vw` defaults to `768`, is the view port width we want to stop the plugin from running.
 
 The plugin runs on the resize event of the window also.
