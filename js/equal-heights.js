@@ -1,6 +1,6 @@
-(function( $ ){
+(function($){
     $.fn.equalHeights = function(options) {
-        // Bob's default settings:
+        //Default settings:
         var defaults = {
             container: ".pods-container",
             equalElements: ".pod",
@@ -34,9 +34,7 @@
                     podHeight = pods[i].offsetHeight;
                     arr.push(podHeight);
                 }
-
                 podMaxHeight = Math.max.apply(Math, arr);
-
                 if (podMaxHeight > 0) {
                     for (j; j < podsLen; j += 1) {
                         pods[j].style.height = podMaxHeight + 'px';
@@ -59,9 +57,8 @@
             console.log('window width: ' + viewPortWidth);
             console.log('options vw: ' + opt.vw);
             equalizer(opt.equalElements, opt.vw);
-        });
-        
+        });        
         return this;
     };
 
-})( jQuery );
+})(jQuery);
