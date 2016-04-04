@@ -24,6 +24,5 @@ In order to use equalheights with it's default options you simply have to add th
             ...
         </div>
     </div>
-</div>
   </div>
 ```
