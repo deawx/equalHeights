@@ -48,6 +48,8 @@ As you can see you can add your own options in order to use the plugin in your w
 
 `vw` defaults to `768`, is the view port width we want to stop the plugin from running.
 
+In case you change the default values of the `container` and `equalElements` you'll have to make the appropriate edits to the equal-heights.css file also 
+
 The plugin runs on the resize event of the window also.
 
   
